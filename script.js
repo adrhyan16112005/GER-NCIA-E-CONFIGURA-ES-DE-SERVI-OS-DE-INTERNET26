@@ -1,3 +1,3 @@
-document.getElementById("btn").addEventListener("click", function() {
-    alert("Você clicou no botão!");
+document.getElementById("btnContato").addEventListener("click", function() {
+    alert("Obrigado por clicar! Em breve entraremos em contato.");
 });
