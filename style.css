@@ -1,14 +1,9 @@
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(120deg, #f0f8ff, #d1c4e9);
     color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -50,15 +45,26 @@ section {
     margin-top: 20px;
 }
 
-.imagens img {
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+figure img {
     width: 250px;
     border-radius: 15px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.imagens img:hover {
-    transform: scale(1.1);
+figure img:hover {
+    transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+figcaption {
+    margin-top: 8px;
+    font-style: italic;
+    color: #555;
 }
 
 button {
