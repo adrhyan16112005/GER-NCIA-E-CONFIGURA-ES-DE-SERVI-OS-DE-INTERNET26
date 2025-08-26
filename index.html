@@ -2,20 +2,44 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Atividade 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Incrível</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Bem-vindo à Atividade 1</h1>
+    <header>
+        <h1>Meu Projeto Foda</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <p>Exemplo de uso de imagens:</p>
-    <div class="imagens">
-        <img src="img/imagem1.jpg" alt="Imagem 1">
-        <img src="img/imagem2.jpg" alt="Imagem 2">
-        <img src="img/imagem3.jpg" alt="Imagem 3">
-    </div>
+    <section id="sobre">
+        <h2>Sobre o Projeto</h2>
+        <p>Este é um projeto incrível feito para aprender HTML, CSS e JS com estilo e interatividade.</p>
+    </section>
 
-    <button id="btn">Clique em mim</button>
+    <section id="galeria">
+        <h2>Galeria de Imagens</h2>
+        <div class="imagens">
+            <img src="img/imagem1.jpg" alt="Imagem 1">
+            <img src="img/imagem2.jpg" alt="Imagem 2">
+            <img src="img/imagem3.jpg" alt="Imagem 3">
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <button id="btnContato">Clique para receber uma mensagem!</button>
+    </section>
+
+    <footer>
+        <p>© 2025 Meu Projeto Foda</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
